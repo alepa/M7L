@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="logoSE">
+    <file>LOGO-SE-2018.png</file>
+  </qresource>
+  <qresource prefix="logoMIST">
+    <file>Logo Mist Hunter.png</file>
+  </qresource>
+</RCC>
