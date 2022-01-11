@@ -55,7 +55,7 @@ GPIO.setup(pinGREEN, GPIO.OUT)
 
 
 so_file1 = '/lib/arm-linux-gnueabihf/libudev.so.1.6.13'
-so_file2 = '/home/pi/utility/EFW/EFW_linux_mac_SDK_V1.7/lib/armv7/libEFWFilter.so'
+so_file2 = '/home/pi/M7L/utility/EFW/EFW_linux_mac_SDK_V1.7/lib/armv7/libEFWFilter.so'
 
 efw = ctypes.CDLL(so_file1, ctypes.RTLD_GLOBAL)
 efw = ctypes.CDLL(so_file2, ctypes.RTLD_GLOBAL)
